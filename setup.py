@@ -43,7 +43,7 @@ for dirpath, dirnames, filenames in os.walk(src_dir):
         data_files.append([dirpath, [os.path.join(dirpath, f) for f in filenames]])
 
 setup(
-    name=app_name,
+    name="django-chronograph-yipit",
     version="1.0.0.5",
     description='Django chronograph application.',
     author='Weston Nielson',
